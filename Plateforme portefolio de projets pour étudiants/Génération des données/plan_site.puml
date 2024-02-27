@@ -1,0 +1,139 @@
+@startuml plan_site
+agent "Accueil" as home
+agent "Créer un compte" as creer_compte
+agent "Se connecter" as connexion
+agent "Projets d'un utilisateur" as projects_user
+agent "Projets de l'utilisateur\nconnecté" as this_projects_user
+agent "Liste de cours associés\nà un enseignant" as list_cours
+agent "Liste de cours associés\nà l'enseignant connecté" as this_list_cours
+agent "Projets dans le \ncadre\nd'un cours" as projects_cours
+agent "Déposer un nouveau projet" as depot_project
+agent "Fichiers d'un projet" as fichiers
+agent "Rechercher un cours" as recherche
+agent "Ajouter un administrateur" as ajout_admin
+agent "Renseigner un enseignant" as prof_cours
+agent "Vérifier l'email" as email_verif
+agent "Changer de mot de passe" as change_password
+
+home -down-> creer_compte
+home -down-> connexion
+' home -> home
+
+creer_compte -down-> this_projects_user
+' creer_compte -> creer_compte
+' creer_compte -> home
+' creer_compte -> connexion
+
+' connexion -> creer_compte
+connexion -right-> email_verif
+connexion -down-> this_projects_user
+' connexion -> home
+' connexion -> connexion
+
+email_verif -left-> change_password
+' email_verif -> home
+' email_verif -> creer_compte
+' email_verif -> connexion
+
+change_password -left-> home
+' change_password -> creer_compte
+' change_password -> connexion
+
+' this_projects_user -> home
+this_projects_user -> projects_user
+' this_projects_user -> this_projects_user
+this_projects_user -right-> this_list_cours
+this_projects_user -left-> depot_project
+this_projects_user -down-> projects_cours
+this_projects_user -down-> fichiers
+this_projects_user -down-> recherche
+this_projects_user -up-> ajout_admin
+this_projects_user -up-> prof_cours
+
+this_list_cours -> projects_cours
+' this_list_cours -> home
+' this_list_cours -> this_projects_user
+' this_list_cours -> this_list_cours
+' this_list_cours -> depot_project
+' this_list_cours -> recherche
+' this_list_cours -> ajout_admin
+' this_list_cours -> prof_cours
+
+depot_project -right-> this_projects_user
+' depot_project -> home
+' depot_project -> this_list_cours
+' depot_project -> depot_project
+' depot_project -> recherche
+' depot_project -> ajout_admin
+' depot_project -> prof_cours
+
+projects_cours -right-> list_cours
+projects_cours -left-> projects_user
+' projects_cours -> projects_cours
+projects_cours -up-> fichiers
+' projects_cours -> home
+' projects_cours -> this_projects_user
+' projects_cours -> this_list_cours
+' projects_cours -> depot_project
+' projects_cours -> recherche
+' projects_cours -> ajout_admin
+' projects_cours -> prof_cours
+
+recherche -down-> projects_cours
+' recherche -> home
+' recherche -> this_projects_user
+' recherche -> this_list_cours
+' recherche -> depot_project
+' recherche -> recherche
+' recherche -> ajout_admin
+' recherche -> prof_cours
+
+ajout_admin -up-> home
+' ajout_admin -> this_projects_user
+' ajout_admin -> this_list_cours
+' ajout_admin -> depot_project
+' ajout_admin -> recherche
+' ajout_admin -> ajout_admin
+' ajout_admin -> prof_cours
+
+prof_cours -up-> home
+' prof_cours -> this_projects_user
+' prof_cours -> this_list_cours
+' prof_cours -> depot_project
+' prof_cours -> recherche
+' prof_cours -> ajout_admin
+' prof_cours -> prof_cours
+
+' fichiers -> home
+' fichiers -> this_projects_user
+' fichiers -> this_list_cours
+' fichiers -> depot_project
+' fichiers -> recherche
+' fichiers -> ajout_admin
+' fichiers -> prof_cours
+
+' projects_user -> projects_user
+projects_user -right-> projects_cours
+projects_user -up-> fichiers
+' projects_user -> home
+' projects_user -> this_projects_user
+' projects_user -> this_list_cours
+' projects_user -> depot_project
+' projects_user -> recherche
+' projects_user -> ajout_admin
+' projects_user -> prof_cours
+
+list_cours -left-> projects_cours
+' list_cours -> home
+' list_cours -> this_projects_user
+' list_cours -> this_list_cours
+' list_cours -> depot_project
+' list_cours -> recherche
+' list_cours -> ajout_admin
+' list_cours -> prof_cours
+
+connexion -[hidden]up- change_password
+this_projects_user -[hidden]up- home
+
+
+@enduml

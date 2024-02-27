@@ -1,0 +1,123 @@
+[
+  {
+    "country_name": "US",
+    "people_vaccinated": 200717387,
+    "percentage_non_vaccinated": 26.810972685361314,
+    "people_partially_vaccinated": 237468725,
+    "percentage_vaccinated": 61.86208444781899,
+    "percentage_partially_vaccinated": 11.3269428668197,
+    "administered": 477433765,
+    "population": 324459463,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "China",
+    "people_vaccinated": 1125000000,
+    "percentage_non_vaccinated": 13.090820829365045,
+    "people_partially_vaccinated": 1225000000,
+    "percentage_vaccinated": 79.81455229956272,
+    "percentage_partially_vaccinated": 7.094626871072241,
+    "administered": 2574931000,
+    "population": 1409517397,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "Russia",
+    "people_vaccinated": 59977765,
+    "percentage_non_vaccinated": 52.112189871509884,
+    "people_partially_vaccinated": 68953540,
+    "percentage_vaccinated": 41.65418950573386,
+    "percentage_partially_vaccinated": 6.233620622756256,
+    "administered": 133666502,
+    "population": 143989754,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "India",
+    "people_vaccinated": 498102033,
+    "percentage_non_vaccinated": 39.50459018422994,
+    "people_partially_vaccinated": 810142506,
+    "percentage_vaccinated": 37.194550826843326,
+    "percentage_partially_vaccinated": 23.300858988926738,
+    "administered": 1316234532,
+    "population": 1339180127,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "South Africa",
+    "people_vaccinated": 15182986,
+    "percentage_non_vaccinated": 67.98618745975203,
+    "people_partially_vaccinated": 18157324,
+    "percentage_vaccinated": 26.769653259765,
+    "percentage_partially_vaccinated": 5.244159280482964,
+    "administered": 26917603,
+    "population": 56717156,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "Germany",
+    "people_vaccinated": 57604250,
+    "percentage_non_vaccinated": 26.780162959343073,
+    "people_partially_vaccinated": 60123901,
+    "percentage_vaccinated": 70.15136622371296,
+    "percentage_partially_vaccinated": 3.068470816943968,
+    "administered": 130831825,
+    "population": 82114224,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "United Arab Emirates",
+    "people_vaccinated": 8832256,
+    "percentage_non_vaccinated": -4.269976686529835,
+    "people_partially_vaccinated": 9801529,
+    "percentage_vaccinated": 93.95872084951881,
+    "percentage_partially_vaccinated": 10.311255837011025,
+    "administered": 22080184,
+    "population": 9400145,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "Israel",
+    "people_vaccinated": 5787953,
+    "percentage_non_vaccinated": 23.143024693657566,
+    "people_partially_vaccinated": 6395707,
+    "percentage_vaccinated": 69.5536178870093,
+    "percentage_partially_vaccinated": 7.303357419333131,
+    "administered": 16301264,
+    "population": 8321570,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "United Kingdom",
+    "people_vaccinated": 46640237,
+    "percentage_non_vaccinated": 22.662086439906208,
+    "people_partially_vaccinated": 51183457,
+    "percentage_vaccinated": 70.47313387855549,
+    "percentage_partially_vaccinated": 6.864779681538301,
+    "administered": 120446058,
+    "population": 66181585,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "Portugal",
+    "people_vaccinated": 9015300,
+    "percentage_non_vaccinated": 12.171211285418684,
+    "people_partially_vaccinated": 9072280,
+    "percentage_vaccinated": 87.27716504545329,
+    "percentage_partially_vaccinated": 0.55162366912803,
+    "administered": 18107247,
+    "population": 10329506,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  },
+  {
+    "country_name": "Switzerland",
+    "people_vaccinated": 5743567,
+    "percentage_non_vaccinated": 30.46516607765097,
+    "people_partially_vaccinated": 5893776,
+    "percentage_vaccinated": 67.7626664920561,
+    "percentage_partially_vaccinated": 1.772167430292927,
+    "administered": 12400985,
+    "population": 8476005,
+    "updateVaccins": "2021/12/10 00:00:00+00"
+  }
+]

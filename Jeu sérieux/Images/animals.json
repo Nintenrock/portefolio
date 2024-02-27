@@ -1,0 +1,170 @@
+{
+  "animaux": [
+    {
+      "tortue-arrau": {
+        "nom": "tortue arrau",
+        "lieu": "Amazonie",
+        "habitat": "eau douce",
+        "apparence": "brun, gris, vert olive",
+        "diete": "fruits, graines, feuilles, algues",
+        "taille_max": "1.07m",
+        "esperance_vie": "80 ans",
+        "poids_max": "90 kg",
+        "classification": "chordés, reptiles, chéloniens, pleurodires, Podocnemididae",
+        "image": "tortue_arrau.jpg",
+        "vitesse": "lent",
+        "affirmations": [
+          {
+            "1": "C'est une tortue d'eau douce pouvant mesurer jusqu'à 1 mètre de long. Sa carapace est large et géante semblable à celle d'une tortue géante.",
+            "2": "La podocnémide élargie est une grosse tortue semi-aquatique qui a une carapace plutôt aplatie, de forme ovoïde mais un peu plus large à l’arrière.  C'est la plus grosse des tortues aquatiques d'Amérique du Sud."
+          }
+        ]
+      }
+    },
+    {
+      "tortue-geometrique": {
+        "nom": "tortue geométrique",
+        "lieu": "Afrique du sud",
+        "habitat": "forêts méditéraniennes, renosterveld",
+        "apparence": "noir, jaune",
+        "diete": "feuilles, géophytes, fleurs, plantes, herbes renosterveld",
+        "taille_max": "15.24cm",
+        "esperance_vie": "30 ans",
+        "poids_max": "6.5kg",
+        "classification": "cryptodires, chordés, reptiles, chéloniens",
+        "image": "tortue-geometrique.png",
+        "vitesse": "lent",
+        "affirmations": [
+          {
+            "1": "Cette espèce est endémique au Cap occidental en Afrique du Sud.",
+            "2": "Possède une très forte carapace noire et jaune à motif, utilisé contre les prédateurs."
+          }
+        ]
+      }
+    },
+    {
+      "tortue-des-steppes": {
+        "nom": "tortue des steppes",
+        "lieu": "Asie centrale",
+        "habitat": "désert",
+        "apparence": "clair, jaune, brun",
+        "diete": "pissenlit, trèfle, plantain, luzerne",
+        "taille_max": "25cm",
+        "esperance_vie": "50 ans",
+        "poids_max": "2kg",
+        "classification": "diurne, héliophile, reptiles",
+        "image": "tortue-des-steppes.png",
+        "vitesse": "lent",
+        "affirmations": [
+          {
+            "1": "La tortue des steppes est une espèce qui s’apprivoise bien, facile à élever.",
+            "2": "Elle vit dans des milieux désertiques et stéppiques variés à des altitudes comprises entre 200 et 2500 mètres."
+          }
+        ]
+      }
+    },
+    {
+      "tortue-leopard": {
+        "nom": "tortue léopard",
+        "lieu": "Afrique du Sud",
+        "habitat": "zones montagneuses, savane herbeuse et aride",
+        "apparence": "jaune, noir",
+        "diete": "luzerne, pissenlit, trèfle, fruits, légumes",
+        "taille_max": "70cm",
+        "esperance_vie": "50 ans",
+        "poids_max": "40kg",
+        "classification": "cryptodires, chordés, reptiles, chéloniens",
+        "image": "tortue-leopard.png",
+        "vitesse": "lente",
+        "affirmations": [
+          {
+            "1": "Elle a la particularité d’avoir une carapace très haute et bombée.",
+            "2": "Sa caracpace possède des dessins caractéristiques rappelant les motifs d'une peau de léopard."
+          }
+        ]
+      }
+    },
+    {
+      "Jaguar": {
+        "nom": "Jaguar",
+        "lieu": "Amazonie",
+        "habitat": "forêt tropicale",
+        "apparence": "noir, blanc, marron",
+        "diete": "mammifères, pécaris, tatous, singes, fourmillers, petits félins, oiseaux, reptiles, poissons",
+        "taille_max": "1.8m",
+        "esperance_vie": "15 ans",
+        "poids_max": "96kg",
+        "classification": "vertébrés, tétrapodes, mammifères, placentaires, carnivores, féliformes, félidés, panthérinés",
+        "image": "jaguar.jpg",
+        "vitesse": "rapide",
+        "affirmations": [
+          {
+            "1": "Ce mammifère est le roi de la forêt amazonienne, sa mâchoire puissante fait de lui le prédateur le plus redouté. Il chasse la nuit et se repose la journée souvent en hauteur dans les arbres.",
+            "2": "Ce félin tacheté ressemble physiquement au léopard, mais il est généralement plus grand et d'apparence plus massive"
+          }
+        ]
+      }
+    },
+    {
+      "Lion": {
+        "nom": "Lion",
+        "lieu": "Europe méridionale, Afrique, Régions d'Asie, Inde",
+        "habitat": "Savane africaine, forêts tropicales",
+        "apparence": "marron, sable, jaune-or, ocre foncé",
+        "diete": "viande",
+        "taille_max": "2.1m",
+        "esperance_vie": "16 ans",
+        "poids_max": "190kg",
+        "classification": "chordés, vertébrés, mammifères, carnivore, féliformes, félidés, panthérinés",
+        "image": "Lion_d'Afrique.jpg",
+        "vitesse": "rapide",
+        "affirmations": [
+          {
+            "1": "Espèces de mammifères carnivores de la famille des félidés possédant une importante crinière.",
+            "2": "Il ne chasse qu'occasionellement, il est chargé de combattre les intrusions sur le territoire et les menaces contre la troupe."
+          }
+        ]
+      }
+    },
+    {
+      "Panthère": {
+        "nom": "panthère",
+        "lieu": "Afrique subsaharienne, Moyen Orient, Asie du sud est",
+        "habitat": "forêts, montagnes, plaines, zones arides",
+        "apparence": "jaune-fauve, marron",
+        "diete": "viande, fruits mûrs",
+        "taille_max": "1.60m",
+        "esperance_vie": "17 ans",
+        "poids_max": "90kg",
+        "classification": "mammifères, placentaires, panthérinés, félidés",
+        "image": "panther.jfif",
+        "vitesse": "rapide",
+        "affirmations": [
+          {
+            "1": "C'est un quadrupède très fort, il court très vite, nage très bien et grimpe aussi aux arbres.",
+            "2": "Cet animal s'exprime par des grognements qui ressemblent plutôt à des ronronnements de chat."
+          }
+        ]
+      },
+      "Tigre": {
+        "nom": "tigre",
+        "lieu": "Asie",
+        "habitat": "jungle tropicale, ",
+        "apparence": "jaune, clair, organge, marron, noir, blanc",
+        "diete": "viande",
+        "taille_max": "3,9m",
+        "esperance_vie": "10 ans",
+        "poids_max": "310kg",
+        "classification": "chordés, vertébrés, tétrapodes, mammifères, placentaires, carnivores, féliformes, félidés, panthérinés",
+        "image": "tigre.jpg",
+        "vitesse": "rapide",
+        "affirmations": [
+          {
+            "1": "Ce mammifère est le plus grand félin sauvage",
+            "2": "Apparu bien avant le jaguar et le léopard, cet animal est étroitement apparenté à la panthère des neiges."
+          }
+        ]
+      }
+    }
+  ]
+}

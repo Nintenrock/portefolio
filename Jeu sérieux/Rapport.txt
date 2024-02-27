@@ -1,0 +1,102 @@
+STM: Description du jeu
+Kerfalla Ciss ́e, Nikita Missiri
+28/06/2022
+1 Principe du jeu
+Le principe du jeu est de tirer sur des panneaux qui illustrent des images d’animaux de la forˆet
+amazonienne afin de r ́epondre `a une question par rapport `a un animal en particulier. Ces panneaux
+bougent de gauche `a droite dans l’espace 3D. Le joueur doit tirer sur le bon panneau pour r ́epondre
+`a la question et ainsi gagner la manche (une question par manche).
+2 Gameplay
+– Le joueur reste sur place, mais il peut s’orienter pour tirer dans toutes les directions de l’espace
+3D.
+– Une partie est compos ́e de 5 manches.
+– Chaque manche a un temps de 40 secondes. 20 secondes pour la lecture de la question et 20
+secondes pour tirer sur un panneau. Si le temps est  ́ecoul ́e, le joueur a perdu la manche.
+– Si le joueur r ́epond faux `a une question, le jeu lui montre la bonne r ́eponse, ainsi qu’une br`eve
+explication.
+– Chaque manche rapporte un certain nombre de points. Le nombre de points est calcul ́e `a partir
+du nombre de temps qu’il reste dans le temps impartis des manches remport ́es multipli ́e par
+10 et le nombre de manche gagn ́e successivement.
+– L’objectif pour le joueur est de remporter le plus de points en r ́epondant aux questions.
+3 R`egles d’adaptivit ́e
+Le jeu s’adapte en fonction du comportement du joueur. Si le joueur r ́epond juste `a la question tr`es
+rapidement, les panneaux seront plus  ́eloign ́es, moins distinguables ou alors le d ́efilement plus rapides
+et les questions plus dures dans les prochaines manches. Si le joueur r ́epond faux `a une question ou
+s’il n’arrive pas `a tirer sur le bon panneau, le jeu lui donnera des questions plus faciles, la vitesse de
+d ́efilement des panneaux va  ́egalement diminuer.
+NB: l’ ́el ́ement fondamental qui va permettre d’adapter le jeu est la vitesse de r ́eponse aux ques-
+tions.
+4 Structure du jeu
+4.1 Sc`ene
+Le jeu sera constitu ́e de deux sc`enes; une sc`ene pour les questions simples et une autre pour les
+questions difficiles. Les images d’animaux ne seront pas les mˆemes dans les deux sc`enes.
+1
+La premi`ere manche commencera avec une question simple puis s’adaptera en fonction du niveau du
+joueur (rapidit ́e de r ́eponse aux questions). Chaque sc`ene sera repr ́esent ́ee par une forˆet amazonienne
+`a l’int ́erieur de laquelle il y aura des panneaux (5 au total) illustrant des images d’animaux.
+4.2 Objets principaux (rˆoles et fonctionnalit ́es)
+Comme objets principaux, on aura le fusil qui sera donc orient ́e dans une direction pour permettre
+au joueur de tirer sur le bon panneau. On aura  ́egalement les panneaux eux mˆemes. Le rˆole des
+panneaux est d’afficher des images d’animaux. Ils auront les fonctionnalit ́es suivantes: se d ́eplacer de
+fa ̧con bidirectionnel et ˆetre d ́etruits. Nous avons choisis uniquement ces 2 objets, car nous jugeons
+que mod ́eliser des animaux en 3D prendra plus de temps que pr ́evu.
+5 Questions
+Comme mentionn ́e pr ́ec ́edemment, les questions portent sur les animaux qui vivent dans la forˆet
+amazonienne. Il y aura un total de 10 questions. Chaque question portera sur un animal. Donc 10
+animaux seront illustr ́es (5 par sc`ene).
+5.1 Questions faciles
+Les questions faciles portent sur les animaux suivants:
+• Tortue Arrau
+• Grenouille `a fl`eches empoisonn ́ees
+• Jaguar
+• Papillon-hiboux
+• Ca ̈ıman noir
+Tortue Arrau:
+C’est une tortue d’eau douce pouvant mesurer jusqu’`a 1 m`etre de long. Sa carapace est large et
+g ́eante semblable `a celle d’une tortue g ́eante.
+Grenouille `a fl`eches empoisonn ́ees:
+Famille de petites grenouilles diurnes se caract ́erisant par leur puissant venin pour se prot ́eger des
+pr ́edateurs et une coloration intensive de leurs couleurs de peau.
+Jaguar:
+Ce mammif`ere est le roi de la forˆet amazonienne, sa mˆachoire puissante fait de lui le pr ́edateur le
+plus redout ́e. Il chasse la nuit et se repose la journ ́ee souvent en hauteur dans les arbres.
+Papillon-hiboux:
+Tr`es grand papillon d’une envergure variant de 100mm `a 130mm au bord externe des ailes ant ́erieures.
+Ces papillons doivent leur nom grˆace `a un dessin semblable aux yeux d’un hibou sur la partie inf ́erieur
+de leurs ailes arri`eres.
+2
+Ca ̈ıman noir:
+Un des pr ́edateurs les plus redout ́es de la forˆet amazonienne, mais aussi le plus grand de son esp`ece.
+Il mesure entre 6 et 7m de long et excelle dans plusieurs domaines tels que la nage et la chasse.
+5.2 Questions difficiles
+Les questions difficiles portent sur les animaux suivants:
+• Tamarin empereur
+• Toucans
+• Araign ́ee Goliath
+• Arapaima gigas
+• Tapir du Br ́esil
+Tamarin empereur:
+Type de singe end ́emique d’une zone r ́eduite de la forˆet amazonienne. Ce singe doit son nom `a
+l’empereur allemand Guillermo II, qui poss ́edait une moustache similaire `a celle de ces singes.
+Toucans:
+Poss ́edant un  ́enorme bec aux vives couleurs leur permettant de r ́eguler leur temp ́erature, ces oiseaux
+d’amazonie peuvent atteindre jusqu’`a 60cm de hauteur.
+Araign ́ee Goliath:
+La plus grosse araign ́ee du monde, elle peut atteindre jusqu’`a 30cm de diam`etre et poss`ede des cro-
+chets pouvant aller jusqu’`a 2cm de long. Particuli`erement venimeuse, elle se d ́efend aussi bien qu’elle
+attaque.
+Arapaima gigas:
+Deuxi`eme poisson d’eau douce le plus gros au monde. Il peut mesurer jusqu’`a 3m de long. C’est l’une
+des principales raisons de sa convoitise par les pˆecheurs, ce qui fait qu’il est en danger d’extinction.
+Tapir du Br ́esil
+Fait partis des cinq esp`eces de tapirs qui existent dans le monde. C’est un animal plutˆot solitaire
+qui vit pr`es des cours d’eau qui lui permettent  ́eventuellement de se cacher de ses pr ́edateurs.
+6 R ́ef ́erences
+Pour les questions:
+https://www.planeteanimal.com/animaux-de-la-foret-amazonienne-liste-avec-noms-et-photos-32
+html#anchor_1
+https://odysway.com/les-10-animaux-de-la-jungle-amazonienne
+Et Wikip ́edia (informations concernant divers animaux).
+Pour la conversion des fichiers STL au format OBJ: https://products.aspose.app/3d/fr/conversion/
+3
+stl-to-ob
